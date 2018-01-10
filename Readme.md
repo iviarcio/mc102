@@ -1,4 +1,4 @@
-Caderno de Aulas de MC102 - Algoritmos e Programação de Computadores
+# Caderno de Aulas de MC102 - Algoritmos e Programação de Computadores
 
 ## O que será necessário para utilizar o caderno:
 
@@ -64,12 +64,12 @@ do notebook a partir da linha de comando (usando Terminal no Mac/Linux ou
 prompt de comando no Windows) executando:
 
 ```sh
-    "$ jupyter notebook"
+    $ jupyter notebook
 ```
 
 Isso imprimirá algumas informações sobre o servidor do notebook em seu
 terminal, incluindo o URL do aplicativo da Web (por padrão,
-http://localhost:8888):
+http://localhost:8888) bem como a forma de encerrar o aplicativo:
 
 ```sh
     $ jupyter notebook,
@@ -80,10 +80,10 @@ http://localhost:8888):
     [I 10:31:03.541 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
-Em seguida, abrirá seu navegador da Web padrão para este URL. Quando o notebook
+Em seguida, jupyter abrirá seu navegador da Web padrão para esta URL. Quando o notebook
 abrir no seu navegador, você verá o Notebook Dashboard, que mostrará uma lista
 dos cadernos, arquivos e subdiretórios no diretório onde o servidor do notebook
-foi iniciado. Na maioria das vezes, você deseja iniciar um servidor de caderno
+foi iniciado. Na maioria das vezes, você deseja iniciar o servidor de cadernos
 no diretório que contém os cadernos do curso MC102. Muitas vezes, este será o
 seu diretório inicial.
 
