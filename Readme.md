@@ -2,16 +2,16 @@ Caderno de Aulas de MC102 - Algoritmos e Programação de Computadores
 
 ## O que será necessário para utilizar o caderno:
 
-Vocês vão precisar ter acesso a uma aplicação chamada \\textit{Terminal}.
+Vocês vão precisar ter acesso a uma aplicação chamada "Terminal".
 Talvez seja a aplicação mais útil, porque vocês poderão usar o mesmo para
 dizer ao seu computador que faça praticamente tudo o que vocês quiserem.
 Usuários de Mac e Linux provavelmente estão familiarizados com este
 aplicativo. No Windows isso é um pouco mais complicado, já que a Microsoft é
 um tanto rebelde. Vocês podem instalar um emulador de terminal mais amigável
-do que o \"Prompt de Comando\" ou mesmo o \"PowerShell\" que acompanham o
+do que o "Prompt de Comando" ou mesmo o "PowerShell" que acompanham o
 Windows. Eu sugiro instalar o [Git Bash](ttps://git-scm.com/downloads).
-Durante a instalação, certifique-se de selecionar a opção \"Use Windows'
-default console window\". Uma outra opção, recomendado principalmente para
+Durante a instalação, certifique-se de selecionar a opção "Use Windows'
+default console window". Uma outra opção, recomendado principalmente para
 quem quer iniciar no mundo Linux, é instalar o Shell Bash do Linux no Windows
 através do subsistema Windows para o Linux, presente nas versões mais atuais
 do Windows 10.
@@ -42,20 +42,20 @@ Vocês precisarão instalar o Jupyter Notebook e algumas extensões para poder
 usar o material do curso. Depois de instalar o Python3, execute no terminal:
 
 ```sh
-    "$ pip3 install jupyter\n",
-    "$ pip3 install jupyter_contrib_nbextensions\n",
-    "$ pip3 install tutormagic\n",
-    "$ jupyter contrib nbextension install --user"
+    $ pip3 install jupyter,
+    $ pip3 install jupyter_contrib_nbextensions,
+    $ pip3 install tutormagic,
+    $ jupyter contrib nbextension install --user
 ```
 
 Para usar as extensões necessárias, você também precisará ativá-las. Para fazer
 isso, você pode usar um subcomando Jupyter:
 
 ```sh
-    "$ jupyter nbextension enable codefolding/main\n",
-    "$ jupyter nbextension enable latex_envs/latex_envs\n",
-    "$ jupyter nbextension enable python-markdown/main\n",
-    "$ jupyter nbextension enable toc2/main"
+    $ jupyter nbextension enable codefolding/main,
+    $ jupyter nbextension enable latex_envs/latex_envs,
+    $ jupyter nbextension enable python-markdown/main,
+    $ jupyter nbextension enable toc2/main
 ```
 
 Depois de instalar o Jupyter Notebook e as extensões em seu computador, você
@@ -72,12 +72,12 @@ terminal, incluindo o URL do aplicativo da Web (por padrão,
 http://localhost:8888):
 
 ```sh
-    "$ jupyter notebook\n",
-    "[I 10:31:03.540 NotebookApp] Serving notebooks from local directory: /Users/marcio/Unicamp/MC102/Python/lectures\n",
-    "[I 10:31:03.541 NotebookApp] 0 active kernels\n",
-    "[I 10:31:03.541 NotebookApp] The Jupyter Notebook is running at:\n",
-    "[I 10:31:03.541 NotebookApp] http://localhost:8888/?token=046cfa3064f0b118f56f6ef8859c4ab68d1d202d79445759\n",
-    "[I 10:31:03.541 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation)."
+    $ jupyter notebook,
+    [I 10:31:03.540 NotebookApp] Serving notebooks from local directory: /Users/marcio/Unicamp/MC102/Python/lectures,
+    [I 10:31:03.541 NotebookApp] 0 active kernels,
+    [I 10:31:03.541 NotebookApp] The Jupyter Notebook is running at:,
+    [I 10:31:03.541 NotebookApp] http://localhost:8888/?token=046cfa3064f0b118f56f6ef8859c4ab68d1d202d79445759,
+    [I 10:31:03.541 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
 ```
 
 Em seguida, abrirá seu navegador da Web padrão para este URL. Quando o notebook
@@ -89,7 +89,19 @@ seu diretório inicial.
 
 ## Extras
 
-   - Livro \"Practical Vim, second edition - Edit Text at the Speed of Thought\" [The Pragmatic Bookshelf](https://pragprog.com/book/dnvim2/practical-vim-second-edition),
+   - Livro "Practical Vim, second edition - Edit Text at the Speed of Thought" [The Pragmatic Bookshelf](https://pragprog.com/book/dnvim2/practical-vim-second-edition),
    - Videos de Derek Wyatt sobre o editor Vim no Vimeo [Derek Wyatt](https://vimeo.com/user1690209),
    - Livro (online) sobre o editor Atom [Atom Flight Manual](http://flight-manual.atom.io/),
-   - YouTube Video \"Setting up a Python Development Environment in Atom\" [Corey Schafer](https://www.youtube.com/watch?v=DjEuROpsvp4)
+   - YouTube Video "Setting up a Python Development Environment in Atom" [Corey Schafer](https://www.youtube.com/watch?v=DjEuROpsvp4)
+
+## Créditos
+
+  - "Composing Programs", John DeNero, UC Berkeley, Creative Commons
+    Attribution-ShareAlike 3.0 Unported License.
+  - "Introduction to Computation and Programming Using Python", Ana Bell,
+    Eric Grimson e John Guttag. MIT OpenCourseWare, Creative Commons License.
+  - "Explorations in Computing - An Introduction to Computer Science and
+    Python Programming", John S. Conery, University of Oregon, Creative
+Commons License.
+  - "Livro "Think Python 2nd Edition", Allen B. Downey, licença Creative
+    Commons Atribuição-NãoComercial CC BY-NC 3.0.
