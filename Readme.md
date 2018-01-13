@@ -96,6 +96,13 @@ seu diretório inicial.
 
 ## Créditos
 
+Durante a elaboração deste caderno de lições, eu me beneficiei significamente
+de materiais disponíveis na web e, claro, procuro dar aqui os devidos créditos.
+Embora tenha tentado ser preciso e correto, se esqueci de alguma citação ou se
+infringi alguma falha de propriedade intelectual, eles são única e
+exclusivamente de minha responsabilidade, não tendo a Universidade de Campinas
+e o Instituto de Computação qualquer responsabilidade sobre o mesmo.
+
   - "Composing Programs", John DeNero, UC Berkeley, Creative Commons
     Attribution-ShareAlike 3.0 Unported License.
   - "Introduction to Computation and Programming Using Python", Ana Bell,
@@ -105,3 +112,5 @@ seu diretório inicial.
 Commons License.
   - "Livro "Think Python 2nd Edition", Allen B. Downey, licença Creative
     Commons Atribuição-NãoComercial CC BY-NC 3.0.
+  - Python 3 Official Documentation. (https://docs.python.org/3/). PFS license, GPL-compatible.
+
