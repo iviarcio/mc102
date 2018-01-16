@@ -42,9 +42,9 @@ Vocês precisarão instalar o Jupyter Notebook e algumas extensões para poder
 usar o material do curso. Depois de instalar o Python3, execute no terminal:
 
 ```sh
-    $ pip3 install jupyter,
-    $ pip3 install jupyter_contrib_nbextensions,
-    $ pip3 install tutormagic,
+    $ pip3 install jupyter
+    $ pip3 install jupyter_contrib_nbextensions
+    $ pip3 install tutormagic
     $ jupyter contrib nbextension install --user
 ```
 
@@ -52,16 +52,16 @@ Para usar as extensões necessárias, você também precisará ativá-las. Para 
 isso, você pode usar um subcomando Jupyter:
 
 ```sh
-    $ jupyter nbextension enable codefolding/main,
-    $ jupyter nbextension enable latex_envs/latex_envs,
-    $ jupyter nbextension enable python-markdown/main,
+    $ jupyter nbextension enable codefolding/main
+    $ jupyter nbextension enable latex_envs/latex_envs
+    $ jupyter nbextension enable python-markdown/main
     $ jupyter nbextension enable toc2/main
 ```
 
 Depois de instalar o Jupyter Notebook e as extensões em seu computador, você
 está pronto para executar o servidor do notebook. Você pode iniciar o servidor
-do notebook a partir da linha de comando (usando Terminal no Mac/Linux ou
-prompt de comando no Windows) executando:
+do notebook a partir da linha de comando. Usando o aplicativo Terminal no Mac/Linux ou
+prompt de comando no Windows, vá para a pasta onde você o caderno de aulas e execute:
 
 ```sh
     $ jupyter notebook
