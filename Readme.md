@@ -93,6 +93,7 @@ seu diretório inicial.
    - Videos de Derek Wyatt sobre o editor Vim no Vimeo [Derek Wyatt](https://vimeo.com/user1690209),
    - Livro (online) sobre o editor Atom [Atom Flight Manual](http://flight-manual.atom.io/),
    - YouTube Video "Setting up a Python Development Environment in Atom" [Corey Schafer](https://www.youtube.com/watch?v=DjEuROpsvp4)
+   - [Full Stack Python](http://www.fullstackpython.com) é um livro aberto que explica conceitos em linguagem simples e fornece recursos excelentes sobre esses tópicos.
 
 ## Créditos
 
