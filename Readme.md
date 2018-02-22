@@ -31,15 +31,16 @@ poderão baixá-lo do site (https://www.python.org/downloads)
 ## Jupyter Notebook
 
 Um dos avanços mais significativos na arena de computação científica está em
-andamento com a explosão de interesse na tecnologia Jupyter (anteriormente,
-IPython) Notebook. A publicação científica Nature apresentou recentemente um
+andamento com a explosão de interesse na tecnologia [Jupyter Notebook](jupyter.org).
+A publicação científica Nature apresentou recentemente um
 artigo sobre os benefícios dos notebooks Jupyter para pesquisas científicas.
 Jupyter Notebook nada mais é do que uma aplicação WEB de código aberto que
 permite criar e compartilhar documentos que contenham código, equações,
 visualizações e texto narrativo.
 
-Vocês precisarão instalar o Jupyter Notebook e algumas extensões para poder
-usar o material do curso. Depois de instalar o Python3, execute no terminal:
+Depois de fazer o clone (recomendado) ou o download do caderno de aulas em uma pasta local,
+vocês precisarão instalar o Jupyter Notebook e algumas extensões para poder
+usar o material do curso. Com o Python3 já instalado na sua máquina, execute no terminal:
 
 ```sh
     $ pip3 install jupyter
