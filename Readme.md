@@ -42,6 +42,9 @@ Depois de fazer o clone (recomendado) ou o download do caderno de aulas em uma p
 vocês precisarão instalar o Jupyter Notebook e algumas extensões para poder
 usar o material do curso. Com o Python3 já instalado na sua máquina, execute no terminal:
 
+    - obs.: Se vc tem somente o python3 instalado em sua máquina, o comando `pip3` pode
+    não existir. Neste caso, digite apenas `pip`.
+
 ```sh
     $ pip3 install jupyter
     $ pip3 install jupyter_contrib_nbextensions
