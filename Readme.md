@@ -55,7 +55,7 @@ não existir. Neste caso, digite apenas `pip`.
     $ jupyter contrib nbextension install --user
 ```
 
-Para usar as extensões necessárias, você também precisarão ativá-las. Para fazer
+Para usar as extensões necessárias, você também precisará ativá-las. Para fazer
 isso, você pode usar um subcomando Jupyter:
 
 ```sh
