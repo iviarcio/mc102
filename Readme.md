@@ -9,7 +9,7 @@ Usuários de Mac e Linux provavelmente estão familiarizados com este
 aplicativo. No Windows isso é um pouco mais complicado, já que a Microsoft é
 um tanto rebelde. Vocês podem instalar um emulador de terminal mais amigável
 do que o "Prompt de Comando" ou mesmo o "PowerShell" que acompanham o
-Windows. Eu sugiro instalar o [Git Bash](ttps://git-scm.com/downloads).
+Windows. Eu sugiro instalar o [Git Bash](https://git-scm.com/downloads).
 Durante a instalação, certifique-se de selecionar a opção "Use Windows'
 default console window". Uma outra opção, recomendado principalmente para
 quem quer iniciar no mundo Linux, é instalar o Shell Bash do Linux no Windows
@@ -38,9 +38,12 @@ Jupyter Notebook nada mais é do que uma aplicação WEB de código aberto que
 permite criar e compartilhar documentos que contenham código, equações,
 visualizações e texto narrativo.
 
-Depois de fazer o clone (recomendado) ou o download do caderno de aulas em uma pasta local,
-vocês precisarão instalar o Jupyter Notebook e algumas extensões para poder
-usar o material do curso. Com o Python3 já instalado na sua máquina, execute no terminal:
+Depois de fazer o clone (recomendado, mais informações
+[aqui](https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/)
+ou [aqui](http://rogerdudler.github.io/git-guide/index.pt_BR.html)) ou o
+download do caderno de aulas em uma pasta local, vocês precisarão instalar o
+Jupyter Notebook e algumas extensões para poder usar o material do curso. Com o
+Python3 já instalado na sua máquina, execute no terminal:
 
   - obs.: Se vc tem somente o python3 instalado em sua máquina, o comando `pip3` pode
 não existir. Neste caso, digite apenas `pip`.
@@ -108,14 +111,14 @@ infringi alguma falha de propriedade intelectual, eles são única e
 exclusivamente de minha responsabilidade, não tendo a Universidade de Campinas
 e o Instituto de Computação qualquer responsabilidade sobre o mesmo.
 
-  - "Composing Programs", John DeNero, UC Berkeley, Creative Commons
+  - *Composing Programs*, John DeNero, UC Berkeley, Creative Commons
     Attribution-ShareAlike 3.0 Unported License.
-  - "Introduction to Computation and Programming Using Python", Ana Bell,
+  - *Introduction to Computation and Programming Using Python*, Ana Bell,
     Eric Grimson e John Guttag. MIT OpenCourseWare, Creative Commons License.
-  - "Explorations in Computing - An Introduction to Computer Science and
-    Python Programming", John S. Conery, University of Oregon, Creative
+  - *Explorations in Computing - An Introduction to Computer Science and
+    Python Programming*, John S. Conery, University of Oregon, Creative
 Commons License.
-  - "Livro "Think Python 2nd Edition", Allen B. Downey, licença Creative
+  - Livro *Think Python, 2nd Edition*, Allen B. Downey, licença Creative
     Commons Atribuição-NãoComercial CC BY-NC 3.0.
   - Python 3 Official Documentation. (https://docs.python.org/3/). PFS license, GPL-compatible.
 
