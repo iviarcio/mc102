@@ -94,6 +94,20 @@ foi iniciado. Na maioria das vezes, você deseja iniciar o servidor de cadernos
 no diretório que contém os cadernos do curso MC102. Muitas vezes, este será o
 seu diretório inicial.
 
+## Nota aos professores
+
+Com o RISE, uma extensão de notebook Jupyter, você pode transformar instantaneamente
+seu notebook jupyter em uma apresentação ao vivo do reveal.js. Para instalar o RISE
+basta executar:
+
+```sh
+    $ pip install RISE
+    $ jupyter-nbextension install rise --py --sys-prefix
+```
+
+isto fará com que um novo ícone *Enter/Exit RISE Slideshow* seja mostrado no toolbar do jupyter.
+
+
 ## Extras
 
    - Livro "Practical Vim, second edition - Edit Text at the Speed of Thought" [The Pragmatic Bookshelf](https://pragprog.com/book/dnvim2/practical-vim-second-edition),
