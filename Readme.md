@@ -40,17 +40,6 @@ pip3 install jupyter jupyter_contrib_nbextensions tutormagic
 jupyter contrib nbextension install --user
 ```
 
-### Ativando Extensões
-
-Para habilitar as extensões necessárias, use os seguintes comandos:
-
-```sh
-jupyter nbextension enable codefolding/main
-jupyter nbextension enable latex_envs/latex_envs
-jupyter nbextension enable python-markdown/main
-jupyter nbextension enable toc2/main
-```
-
 Agora, seu **Jupyter Notebook** está pronto para ser utilizado (sempre que for utilizá-lo, lembre-se de ativar o mc102env antes de rodar o Jupyter). Para iniciá-lo, vá até a pasta onde o material do curso foi baixado e execute:
 
 ```sh
