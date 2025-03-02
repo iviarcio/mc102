@@ -14,14 +14,26 @@ Para criar um programa, utilizamos um **editor de texto** para escrever o códig
 
 O **Jupyter Notebook** tem sido amplamente utilizado na computação científica e no ensino de programação. Ele permite criar e compartilhar documentos interativos contendo código, equações, visualizações e textos explicativos. Você pode encontrar mais informações no site oficial: [https://jupyter.org](https://jupyter.org).
 
-Para utilizar o material deste curso, siga os passos abaixo para instalar o **Jupyter Notebook** e algumas extensões. Com o **Python 3** já instalado, execute no terminal:
+Para utilizar o material deste curso, siga os passos abaixo para **clonar** o material do curso, criar o **python environment** para ele, instalar o **Jupyter Notebook** e algumas extensões. Com o **Git** ou **Git Bash** (no caso do Windows) e o **Python 3** já instalados, execute no terminal:
 
 ```sh
-pip install jupyter jupyter_contrib_nbextensions tutormagic
-jupyter contrib nbextension install --user
+git clone https://github.com/iviarcio/mc102.git
+python3 -m venv mc102env
 ```
 
-Se o comando `pip` não funcionar e sua instalação for apenas `python3`, tente `pip3`:
+Para ativar o ambiente virtual no **Mac/Linux**:
+
+  ```sh
+  source mc102env/bin/activate
+  ```
+
+- No **Windows**:
+
+  ```sh
+  mc102env\Scripts\activate
+  ```
+
+Em seguida, execute:
 
 ```sh
 pip3 install jupyter jupyter_contrib_nbextensions tutormagic
@@ -39,9 +51,10 @@ jupyter nbextension enable python-markdown/main
 jupyter nbextension enable toc2/main
 ```
 
-Agora, seu **Jupyter Notebook** está pronto para ser utilizado. Para iniciá-lo, vá até a pasta onde o material do curso foi baixado e execute:
+Agora, seu **Jupyter Notebook** está pronto para ser utilizado (sempre que for utilizá-lo, lembre-se de ativar o mc102env antes de rodar o Jupyter). Para iniciá-lo, vá até a pasta onde o material do curso foi baixado e execute:
 
 ```sh
+cd mc102
 jupyter notebook
 ```
 
@@ -77,7 +90,7 @@ Aqui estão alguns materiais complementares recomendados:
 - 📖 Livro **"Practical Vim, 2ª edição - Edit Text at the Speed of Thought"** [The Pragmatic Bookshelf](https://pragprog.com/book/dnvim2/practical-vim-second-edition).
 - 🎥 Vídeos de **Derek Wyatt** sobre o **editor Vim** no Vimeo: [Derek Wyatt](https://vimeo.com/user1690209).
 - 📖 Livro online sobre o **editor VSCode**: [VSCode Documentation](https://code.visualstudio.com/docs).
-- 🎥 Vídeo no YouTube: **"Setting up a Python Development Environment in VSCode"** [Corey Schafer](https://www.youtube.com/watch?v=-nh9rCzPJ20).
+- 🎥 Vídeo no YouTube: **"Setting up a Python Development Environment in VSCode"** [Official Video](https://www.youtube.com/watch?v=D2cwvpJSBX4).
 - 📘 [Full Stack Python](http://www.fullstackpython.com) – um livro aberto que explica conceitos de programação em linguagem acessível.
 
 ---
